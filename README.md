@@ -1,7 +1,8 @@
 # DSA_Projects
 Preparation programs on DSA Topics
-    **Data Structures**
-    **Algorithms**
+
+**Data Structures**
+**Algorithms**
 
 1. Array
 2. String
