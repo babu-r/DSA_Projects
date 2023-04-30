@@ -15,7 +15,6 @@ Output
 The output should contain one integer which is the number of buildings whose roofs you can see.
 */
 
-import java.io.*; // for handling input/output
 import java.util.*; // contains Collections framework
 
 class Main {

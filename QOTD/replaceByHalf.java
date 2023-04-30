@@ -1,4 +1,5 @@
-/*Replace by half (QOTD)
+/*
+Replace by half (QOTD)
 Time Limit: 2 sec
 Memory Limit: 128000 kB
 Problem Statement
@@ -20,9 +21,9 @@ Sample Input:
 8 12 40
 
 Sample Output:
-5*/
+5
+*/
 
-import java.io.*; // for handling input/output
 import java.util.*; // contains Collections framework
 
 // don't change the name of this class
