@@ -6,7 +6,6 @@ class Node {
 }
 
 class NodeOperation {
-// Function to add a new node
 	public void pushNode(Node[] headRef, int dataVal) {
 	// Allocate node
 		Node newNode = new Node();
