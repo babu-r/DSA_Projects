@@ -31,20 +31,19 @@ import java.util.*; // contains Collections framework
 class Main {
     public static void replaceHalf(int[] arr) {
         int n = arr.length;
-        int max;
-
         for(int i=0; i<n; i++) {
             
         }
     }
     public static void main (String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int arr[] = new int[n];
+        try (Scanner sc = new Scanner(System.in)) {
+            int n = sc.nextInt();
+            int arr[] = new int[n];
 
-        for(int i=0; i<n; i++) {
-            arr[i] = sc.nextInt();
+            for(int i=0; i<n; i++) {
+                arr[i] = sc.nextInt();
+            }
+            replaceHalf(arr);
         }
-        replaceHalf(arr);
     }
 }
